@@ -1,0 +1,377 @@
+/* #one {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, auto);
+    margin-top: 15px;
+  }
+  #one img {
+    width: 415px;
+    height: 415px;
+  }
+  #one img:hover {
+    padding: 10px;
+  }
+  #exp {
+    margin-top: 10px;
+  }
+  #exp p {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  #exp h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  #exp a {
+    text-decoration: underline;
+    color: rgb(171, 171, 238);
+  }
+  #boxone {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    height: 500px;
+  }
+  #part1 {
+    width: 600px;
+    height: 500px;
+  }
+  #part1 h1 {
+    font-size: 50px;
+    margin-top: 200px;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #part1 h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #boxone img {
+    width: 500px;
+    height: 500px;
+    margin-left: 80px;
+  }
+  #boxone button {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #logoone {
+    width: 100%;
+    height: 500px;
+    background: url("https://images.unsplash.com/photo-1657278127206-3299435f1cad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1vZi10aGUtZGF5fHx8fGVufDB8fHx8&dpr=2&auto=format%2Ccompress&fit=crop&w=1399&h=594");
+    position: relative;
+    margin-top: 20px;
+  }
+  #logoone h1 {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 150px;
+    color: aliceblue;
+    margin-left: 300px;
+  }
+  #logoone p {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    position: relative;
+    top: 150px;
+    color: white;
+    margin-left: 300px;
+  }
+  #hel {
+    margin-top: 180px;
+    width: 800px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 300px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 15px;
+  }
+  #hel:focus {
+    background-color: rgb(217, 248, 248);
+    border-top-color: rgb(231, 209, 251);
+    border-bottom-color: rgb(231, 209, 251);
+  }
+  #hel:hover {
+    background-color: rgb(217, 248, 248);
+    border-top-color: rgb(231, 209, 251);
+    border-bottom-color: rgb(231, 209, 251);
+    border: 2px solid red;
+  }
+  #boxtwo {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+  }
+  #boxtwo h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #doone {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #boxfour {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+  }
+  #loli {
+    width: 300px;
+    height: 350px;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  #loli img {
+    margin-left: 50px;
+    width: 200px;
+    height: 180px;
+  }
+  #loli h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #loli p {
+    font-size: 17px;
+  }
+  #boomboom {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(249, 247, 250);
+  }
+  #but {
+    transform: translate(550px, 100px);
+  }
+  #boxfive {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #boxsix {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(253, 253, 248);
+  }
+  #boxsixone {
+    width: 500px;
+    height: 300px;
+  }
+  #boxsixone h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #boxsixone p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 20px;
+  }
+  
+  #boxsix img {
+    height: 300px;
+    width: 500px;
+  }
+  #ravan {
+    margin-top: 50px;
+  }
+  #boxseven {
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  
+  #boxseven div {
+    margin-left: 5px;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #boat1 {
+    background-color: #111;
+    color: white;
+  }
+  #boat2 {
+    background-color: #f5f5f5;
+  }
+  #boat3 {
+    background-color: #bd081c;
+  }
+  #boat4 {
+    background-color: #f5f5f5;
+  }
+  #boat5 {
+    background-color: #f5f5f5;
+  }
+  #boat6 {
+    background-color: #f5f5f5;
+  }
+  #boxseven h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  #boxseven p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+  }
+  #boat1 p {
+    margin-top: 90px;
+  }
+  #boat2 p {
+    margin-top: 240px;
+  }
+  #boat3 p {
+    margin-top: 180px;
+  }
+  #boat4 p {
+    margin-top: 250px;
+  }
+  #boat5 p {
+    margin-top: 250px;
+  }
+  #boat6 p {
+    margin-top: 230px;
+  }
+  #move {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+  }
+  #move img {
+    margin-left: 590px;
+    width: 100px;
+    height: 100px;
+  }
+  #move h1 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #move p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    margin-top: 5px;
+  }
+  #sw {
+    margin-top: 10px;
+  }
+  #inin {
+    text-align: center;
+  }
+  #inone {
+    width: 500px;
+  }
+  #intwo {
+    width: 500px;
+  }
+  #button {
+    margin-left: 390px;
+    width: 500px;
+  }
+  #inin h3 {
+    font-size: 20px;
+    transform: translateX(-220px);
+    margin-bottom: 5px;
+  }
+  #ram p {
+    font-size: 20px;
+    margin-bottom: 5px;
+    transform: translateX(-210px);
+  }
+  #mainone {
+    margin-top: 20px;
+    display: flex;
+  }
+  #att {
+    background: url("https://images.unsplash.com/photo-1658460233894-a1fbb68f4b8b?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb");
+    width: 400px;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #att img {
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  #att h1 {
+    font-size: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  #att h4 {
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  #att p {
+    margin-top: 200px;
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  #signone {
+    width: 700px;
+    height: 600px;
+    margin-left: 100px;
+    overflow: scroll;
+  }
+  #signtwo {
+    padding: 20px;
+    margin-top: 0px;
+  }
+  #spaceone {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #gub {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+  }
+  #gub h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #gub h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  #d {
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+  #gub p {
+    text-align: center;
+  } */

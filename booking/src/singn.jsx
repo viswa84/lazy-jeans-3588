@@ -1,60 +1,6 @@
-// import { Box, Button, Input, Stack, Text } from "@chakra-ui/react";
-// import Nav from "./nav";
-
-
-
-// export default function Signgn (){
-
-//     return (
-//         <div>
-//             <Nav/>
-//               <div  style={{display:'flex' , alignItems:'center',justifyContent:'center' ,marginTop:'100px' }}>
-    
-//                  <Box >
-            
-//             <Box width='23rem'>
-//                 <Text fontSize='2xl' fontWeight={'bold'}   >Sign in or create an account</Text>
-//                 <br />
-//                 <Text fontSize='sm'>Email address</Text>
-//                 <Input   isInvalid
-//                     errorBorderColor='black'        placeholder='' size='lg' />
-//              </Box>
-//              <br />
-            
-//              <Box width='23rem' >
-
-//                    <Button width='23rem'height='50px' colorScheme='telegram' >Continue with mail</Button>
-//              </Box>  
-             
-//              </Box>
-//              <Box width='23rem'>
-       
-//             </Box>
-//             <br />
-//             <Box width='23rem'>
-    
-    
-//             </Box>
-
-//             </div>
-//             <div id="raa">
-
-//             </div>
-       
-        
-        
-         
-//         </div>
-//     )
-// }
-
-
-
-
 import { Button, Input } from "@chakra-ui/react";
 import { useState } from "react";
-import Nav from "./nav";
-import './singn.css'
+import "./navstyle.css";
 let initial = {
   email: "",
   password: "",
@@ -71,11 +17,11 @@ export default function Move() {
   };
   return (
     <div>
-        <Nav/>
-
-       
       <div id="move">
-        
+        <img
+          src="https://imgs.search.brave.com/S_J4On_uyOiXS4eNRLBA07SDJzhxGm9rqKXl9WQb2Ys/rs:fit:500:500:1/g:ce/aHR0cHM6Ly9mcmVl/c3RhcS5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTkvMDMv/dW5zcGxhc2gtbG9n/by5qcGc"
+          alt=""
+        />
         <h1>Login</h1>
         <p>Welcome Back</p>
         <a href="https:www.facebook.com">
@@ -109,7 +55,6 @@ export default function Move() {
           <div id="ram">
             <p>Password</p>
             <Input
-            ml={'28.4%'}
               id="intwo"
               size="lg"
               type="password"
@@ -126,7 +71,6 @@ export default function Move() {
         </div>
         <br />
         <Input
-      left={'8.3%'}
           size="lg"
           type="submit"
           id="button"
